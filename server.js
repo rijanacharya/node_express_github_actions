@@ -14,8 +14,8 @@ app.get('/', function (req, res) {
   res.send("<h1>Home Page</h1>")
 })
 
-app.get('/name', { req, res }=>(
-  res.send("h1> C0871943 Rijan Acharya")
+app.get('/name', (req, res) => (
+  res.send("<h1> C0871943 Rijan Acharya</h1>")
 ))
 
 //http://localhost:3000/profile
